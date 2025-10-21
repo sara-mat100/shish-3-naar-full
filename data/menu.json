@@ -1,0 +1,352 @@
+{
+  "categories": [
+    {
+      "id": "sandwiches",
+      "title": {
+        "ar": "سندويشات",
+        "en": "Sandwiches"
+      },
+      "items": [
+        {
+          "name": {
+            "ar": "دجاج تنور كلاسيك",
+            "en": "Chicken Tannour Classic"
+          },
+          "price": 8,
+          "image": "images/menu/chicken.jpeg",
+          "description": {
+            "en": "Grilled chicken in the tannour with special sauce",
+            "ar": "دجاج مشوي على التنور مع صلصة خاصة"
+          }
+        },
+        {
+          "name": {
+            "ar": "دجاج تنور بصلصة شيش ع نار",
+            "en": "Chicken Tannour Special Sauce"
+          },
+          "price": 8,
+          "image": "images/menu/sandwich.jpg",
+          "description": {
+            "ar": "دجاج مشوي على التنور مع صلصة خاصة",
+            "en": "Grilled chicken in the tannour with special sauce"
+          }
+        },
+        {
+          "name": {
+            "ar": "طاووق تويست كلاسيك",
+            "en": "Taouk Twist Classic"
+          },
+          "price": 8.5,
+          "image": "images/menu/sandwich.jpg"
+        },
+        {
+          "name": {
+            "ar": "طاووق تويست بصلصة شيش ع نار",
+            "en": "Taouk Twist w/ Special Sauce"
+          },
+          "price": 8.5,
+          "image": "images/menu/sandwich.jpg"
+        },
+        {
+          "name": {
+            "ar": "لحم مشوي (Baby Veal)",
+            "en": "Lahim Mishwi (Baby Veal)"
+          },
+          "price": 10.5,
+          "image": "images/menu/sandwich.jpg"
+        },
+        {
+          "name": {
+            "ar": "كفتة لبنانية",
+            "en": "Kafta Lebanese"
+          },
+          "price": 8,
+          "image": "images/menu/sandwich.jpg"
+        },
+        {
+          "name": {
+            "ar": "بسترما",
+            "en": "Basterma"
+          },
+          "price": 9,
+          "image": "images/menu/sandwich.jpg"
+        },
+        {
+          "name": {
+            "ar": "منقوشة زعتر تنور مع مكسرات",
+            "en": "Zaatar Tannour with Nuts"
+          },
+          "price": 2,
+          "image": "images/menu/sandwich.jpg"
+        },
+        {
+          "name": {
+            "ar": "منقوشة كشك تنور مع مكسرات",
+            "en": "Kishik Tannour with Nuts"
+          },
+          "price": 3,
+          "image": "images/menu/sandwich.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cold-mezza",
+      "title": {
+        "ar": "مقبلات باردة",
+        "en": "Cold Mezza"
+      },
+      "items": [
+        {
+          "name": {
+            "ar": "حمص",
+            "en": "Hummus"
+          },
+          "price": 4,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "حمص متمتم",
+            "en": "Hummus Mtamtam"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "حمص حار",
+            "en": "Spicy Hummus"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "متبل باذنجان عجمي",
+            "en": "Moutabal Ajami"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "بابا غنوج",
+            "en": "Baba Ganouj"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "محمرة على الأصول",
+            "en": "Muhammara"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "ورق عنب",
+            "en": "Grapevine Leaves"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "زيت و هندبة",
+            "en": "Zeit w Hindbeh"
+          },
+          "price": 5,
+          "image": "images/menu/formule.jpg"
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "title": {
+        "ar": "السلطات",
+        "en": "Salads"
+      },
+      "items": [
+        {
+          "name": {
+            "ar": "تبولة صغير",
+            "en": "Tabouleh (Small)"
+          },
+          "price": 5,
+          "image": "/images/menu/rice.jpg"
+        },
+        {
+          "name": {
+            "ar": "تبولة كبير",
+            "en": "Tabouleh (Large)"
+          },
+          "price": 8,
+          "image": "/images/menu/tacos.jpg"
+        },
+        {
+          "name": {
+            "ar": "سلطة خضرا",
+            "en": "Garden Salad"
+          },
+          "price": 5,
+          "image": "/images/menu/rice.jpg"
+        },
+        {
+          "name": {
+            "ar": "سلطة الكينوا الحمراء مع المانجو",
+            "en": "Red Quinoa Salad with Mango"
+          },
+          "price": 9,
+          "image": "/images/menu/tacos.jpg"
+        },
+        {
+          "name": {
+            "ar": "سلطة الكراب مع الفواكه",
+            "en": "Crab Salad with Fruits"
+          },
+          "price": 8,
+          "image": "/images/menu/rice.jpg"
+        },
+        {
+          "name": {
+            "ar": "فتوش صغير",
+            "en": "Fattoush (Small)"
+          },
+          "price": 5,
+          "image": "/images/menu/tacos.jpg"
+        },
+        {
+          "name": {
+            "ar": "فتوش كبير",
+            "en": "Fattoush (Large)"
+          },
+          "price": 8,
+          "image": "/images/menu/rice.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hot-mezza",
+      "title": {
+        "ar": "مقبلات ساخنة",
+        "en": "Hot Mezza"
+      },
+      "items": [
+        {
+          "name": {
+            "ar": "بطاطا حرة",
+            "en": "Batata Harra"
+          },
+          "price": 5,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "مقانق",
+            "en": "Makanik"
+          },
+          "price": 7,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "سجق مقلي مع البندورة",
+            "en": "Soujok with Tomato"
+          },
+          "price": 7,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "سودة دجاج",
+            "en": "Chicken Liver"
+          },
+          "price": 8,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "حمص مع لحمة",
+            "en": "Hummus with Meat"
+          },
+          "price": 7,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "حمص مع سجق",
+            "en": "Hummus with Soujok"
+          },
+          "price": 6,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "بطاطا مقلية",
+            "en": "French Fries"
+          },
+          "price": 4,
+          "image": "/images/menu/formule.jpg"
+        },
+        {
+          "name": {
+            "ar": "قريدس بانيه",
+            "en": "Breaded Shrimp"
+          },
+          "price": 12,
+          "image": "/images/menu/shrimp.jpg"
+        },
+        {
+          "name": {
+            "ar": "فتة مكدوس",
+            "en": "Fatteh Makdous"
+          },
+          "price": 7,
+          "image": "/images/menu/msakhan.jpg"
+        },
+        {
+          "name": {
+            "ar": "كبة مقلية",
+            "en": "Kebbeh"
+          },
+          "price": 6,
+          "image": "/images/menu/kibbeh.jpg"
+        },
+        {
+          "name": {
+            "ar": "حلوم مقلي مع لوز و زعتر",
+            "en": "Fried Halloumi with Almonds"
+          },
+          "price": 7,
+          "image": "/images/menu/msakhan.jpg"
+        },
+        {
+          "name": {
+            "ar": "سمبوسك لحمة",
+            "en": "Meat Sambousek"
+          },
+          "price": 6,
+          "image": "/images/menu/kibbeh.jpg"
+        },
+        {
+          "name": {
+            "ar": "مسخن رول دجاج",
+            "en": "Chicken Msakhan Roll"
+          },
+          "price": 7,
+          "image": "/images/menu/msakhan.jpg"
+        },
+        {
+          "name": {
+            "ar": "رقاقات جبنة",
+            "en": "Cheese Rolls"
+          },
+          "price": 6,
+          "image": "/images/menu/msakhan.jpg"
+        }
+      ]
+    }
+  ]
+}

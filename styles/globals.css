@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+    height: 100%;
+}
+
+body {
+    @apply bg-orange-50 text-charcoal;
+    direction: ltr;
+    font-family: 'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+    .rtl input, .rtl textarea, .rtl select {
+        text-align: right;
+    }
+
+a {
+    text-decoration: none;
+}
