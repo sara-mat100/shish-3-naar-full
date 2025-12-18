@@ -1,4 +1,4 @@
-import useCart from '../components/useCart'
+import {useCart} from '../components/CartContext'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
 import CartWidget from '../components/CartWidget'

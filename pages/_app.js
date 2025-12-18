@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
+import { CartProvider } from '../components/CartContext';
 export default function MyApp({ Component, pageProps }){
   const [lang,setLang]=useState('ar')
   useEffect(()=>{ document.body.classList.toggle('rtl', lang==='ar') },[lang])
@@ -11,7 +12,11 @@ export default function MyApp({ Component, pageProps }){
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
       <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet"/>
-    </Head>
-    <div className={lang==='ar'?'rtl':''}><Component {...pageProps} lang={lang} setLang={setLang}/></div>
+      </Head>
+      <CartProvider>
+          <div className={lang === 'ar' ? 'rtl' : ''}><Component {...pageProps} lang={lang} setLang={setLang} /></div>
+      </CartProvider>
   </>)
 }
+
+

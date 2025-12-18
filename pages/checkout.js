@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import useCart from '../components/useCart'
+import {useCart} from '../components/CartContext'
 import Header from '../components/Header'
 import settings from '../data/settings.json'
 export default function Checkout({ lang, setLang }){

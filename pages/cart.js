@@ -1,4 +1,4 @@
-import useCart from '../components/useCart'
+import {useCart} from '../components/CartContext'
 import Header from '../components/Header'
 import CartWidget from '../components/CartWidget'
 export default function CartPage({ lang, setLang }){
